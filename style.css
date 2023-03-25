@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #e6ebed;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 30%;
+    text-align: center;
+    margin:  auto;
+    padding: 20px;
+}
+.main{
+   /* background-color: var(--secondary-color); */
+   background-color: #d5dadb;
+   height: 85vh;
+   padding-top: 70px;
+   padding-bottom: 10px;
+
+}
+.main img{
+    width: 50%;
+    margin:  auto ;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.main h6{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #4d4f4f;
+    background-color: #d5dadb;
+}
+.section{
+    width: 50%;
+    margin:50px auto;
+
+}
+.section h2{
+    margin: 10px 1px 30px 1px;   
+    text-align: center;
+}
+.section ul li{
+    margin: 15px;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.section h6{
+    text-align: center;
+    padding: 30px;
+    font-size: 13px;
+    font-weight: normal;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #4d4f4f;
+}
+.footer h6 {
+    background-color: #4d4f4f;
+    color: #e6ebed;
+}
+.footer .col{
+    background-color: #4d4f4f;
+    color: rgb(29, 159, 189);
+}
+
+@media (max-width: 576px) {
+    .container{
+        width: 70%;
+    }
+    .main{
+        height: 40%;
+    }
+    .main img{
+        width: 80%;
+    }
+    .main h6{
+        padding: 20px;
+    }
+    .section{
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        width: 70%;
+    }
+    .main{
+        height: 40%;
+    }
+    .main img{
+        width: 80%;
+    }
+    .main h6{
+        padding: 20px;
+    }
+    .section{
+        width: 80%;
+    }
+}
+@media (max-width: 992px){
+    .container{
+        width: 70%;
+    }
+    .main{
+        height: 40%;
+    }
+    .main img{
+        width: 80%;
+    }
+    .main h6{
+        padding: 20px;
+    }
+    .section{
+        width: 80%;
+    }
+}
+@media (max-width: 1200px){
+    .container{
+        width: 70%;
+    }
+    .main{
+        height: 40%;
+    }
+    .main img{
+        width: 80%;
+    }
+    .main h6{
+        padding: 20px;
+    }
+    .section{
+        width: 80%;
+    }
+}
